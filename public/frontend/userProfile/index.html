@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Jost:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&family=Red+Rose:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- For Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://codingyaar.com/wp-content/uploads/coding-yaar-logo.png"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          style="border-bottom: 1px solid black"
+          class="collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                style="color: #ffd233"
+                aria-current="page"
+                href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">OUR PRODUCTS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link">SOLAR CARPORTS ENQUIRY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"> <i class="fas fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+
+          <div
+            style="
+              border-bottom: 1px solid black;
+              width: 100%;
+              display: flex;
+              justify-content: flex-end;
+              align-items: center;
+            "
+            class="top-nav-bars"
+          >
+            <a class="nav-link active" aria-current="page" href="#"
+              >How it works</a
+            >
+            <a style="margin-left: 20px" class="nav-link" href="#">About us</a>
+            <button class="btn-custom-navbar btn-navbar-login">LOGIN</button>
+            <button class="btn-custom-navbar btn-navbar-signup">SIGN UP</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <!-- Nav Ends -->
+
+
+    <div style="padding: 2% 5%;" class="">
+        <h2 class="">My Profile</h2>
+    </div>
+
+    
+
+  <!-- PROFILE CODE STARTS HERE -->
+  <div class="">
+    
+    <div class="img" style="    background-image: linear-gradient(150deg, rgba(63, 174, 255, .3)15%, rgba(63, 174, 255, .3)70%, rgba(63, 174, 255, .3)94%), url(./Images/Image.png);
+    height: 350px;background-size: cover;"></div>
+    <div class=" social-prof">
+        <div class="card-body">
+            <div class="wrapper123">
+                <img src="./Images/image 50.png" alt="" class="user-profile">
+                
+                <h3>John Patil</h3>
+                <p>Johnpatil@gmail.com</p>
+            </div>
+            <div class="profile-content-container">
+                <div class="nav-profile-options">
+                    <ul class=" nav nav-tabs ">
+                      <li ><a id="profile-navitem" class="navvvv active" href="javascript:void(0);" onclick="showContent('profile')">My Profile</a></li>
+                            <li style="margin-left: 2.5%;"><a id="password-navitem" class="navvvv"  class="" href="javascript:void(0);" onclick="showContent('password')">Password</a></li>
+                    </ul>
+                </div>
+                <div class="profile-content" data-toggle="profile" >
+                  <div class="personal-info-banner">
+                  <h4>Personal Info</h4>
+                  <p>Update your photo and personal details.</p>
+                  <hr>
+                </div>
+                </div>
+                <div class="profile-content" data-toggle="profile" class="my-profile-card" style="padding: 1%;">
+                  <div class="row card-profile-bx">
+                    <div class="col-md-8" >
+                      <form>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+                            </div>
+                            <div class="col">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="phone" class="form-label">Phone No.</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                    <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="email" class="form-label">Email Address</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="address" class="form-label">Your Address</label>
+                                <textarea class="form-control" id="address" rows="4" placeholder="Enter your address"></textarea>
+                            </div>
+                        </div>
+                        
+                    </form>
+                    </div>
+                    <div  class="col-md-4" style="padding:0 4%;">
+                        <!-- Upload Profile Pic -->
+        <div class="mb-3" style="text-align: center; align-items: center;">
+          <p  style="color: #344054;font-family: Inter;font-weight: 500;
+          " class="mb-1">Upload Profile Pic</p>
+          <img src="./Images/image 50.png" alt="Profile Picture" class="img-fluid rounded-circle" style="width: 150px;">
+      </div>
+
+      <!-- Upload Box with Icon and Text -->
+      <div class="mb-3">
+          <div class="d-flex flex-column align-items-center" style="border: 0.5px solid #0000003D;border-radius: 12px;padding: 5%;">
+              <div class="mb-2">
+                  <img src="./Images/Featured icon.png" />
+              </div>
+              <p class="mb-0">SVG, PNG, JPG or GIF (max. 800x400px)</p>
+              <a>Click to upload</a>
+          </div>
+      </div>
+      
+      <!-- Upload Photo Button -->
+      <div style="display: flex; justify-content: center;">
+          <button type="button" class="btn-custom-photo-upload">Upload Photo</button>
+      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="profile-content" data-toggle="profile"  > 
+              <hr style="border-color: #F87C093D; border-width: 3px;">
+              <div style="display: flex; justify-content: center;margin-top: 2.5%;">
+              <div class="buttons-col">
+                <button class="my-profile-btn update-prof-btn">Update Profile</button>
+                <button class="my-profile-btn cancel-prof-btn">Cancel</button>
+              </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="profile-content" data-toggle="password" style="display: none;">
+<div class="password-content-container">
+  <div>
+    <div class="personal-info-banner">
+    <h4>Password</h4>
+    <p>Please enter your current password to change your password.</p>
+    <hr>
+  </div>
+  </div>
+
+  <div>
+    <form>
+      <!-- Current Password Row -->
+      <div class="form-row">
+          <label class="password-confirm-custom" for="currentPassword">Current Password</label>
+          <input class="password-confirm-custom-field" type="password" id="currentPassword" name="currentPassword" required>
+      </div>
+      <hr>
+
+      <!-- New Password Row -->
+      <div class="form-row">
+          <label class="password-confirm-custom" for="newPassword">New Password</label>
+          <input class="password-confirm-custom-field" type="password" id="newPassword" name="newPassword" required>
+          <p class="pass-constraints" style="margin-left: 26%; width: 50%;">Your new password must be more than 8 characters.</p>
+      </div>
+      <hr>
+
+      <!-- Confirm Password Row -->
+      <div class="form-row">
+          <label class="password-confirm-custom" for="confirmPassword">Confirm Password</label>
+          <input class="password-confirm-custom-field" type="password" id="confirmPassword" name="confirmPassword" required>
+      </div>
+      <hr>
+
+      <!-- Submit Button -->
+      <div style="display: flex; justify-content: end;">
+        <button class="cancel-custom-btn-password" type="submit">Cancel</button>
+        <button class="update-custom-btn-password" type="submit">Update Password</button>  
+      </div>
+      
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+    <!-- Footer Starts Here -->
+
+    <footer style="background-color: #000; color: #fff; padding: 4%">
+      <div class="container py-4 footer-container">
+        <div class="row">
+          <!-- Product Categories Column -->
+          <div class="col-md-4">
+            <h4>Product Categories</h4>
+            <ul class="list-unstyled" style="margin-top: 5%">
+              <li>
+                <a href="#" style="color: #fff; text-decoration: none"
+                  >Home Solar Panels</a
+                >
+              </li>
+              <li>
+                <a href="#" style="color: #fff; text-decoration: none"
+                  >Commercial Solar Panels</a
+                >
+              </li>
+              <li>
+                <a href="#" style="color: #fff; text-decoration: none"
+                  >Solar Carports</a
+                >
+              </li>
+              <li>
+                <a href="#" style="color: #fff; text-decoration: none"
+                  >Other Accessories</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Account Column -->
+          <div class="col-md-4">
+            <h4>Account</h4>
+            <ul class="list-unstyled" style="margin-top: 5%">
+              <li>
+                <a href="#" style="color: #fff; text-decoration: none"
+                  >My Profile</a
+                >
+              </li>
+              <li>
+                <a href="#" style="color: #fff; text-decoration: none"
+                  >My Orders</a
+                >
+              </li>
+              <li>
+                <a href="#" style="color: #fff; text-decoration: none"
+                  >Track Order</a
+                >
+              </li>
+              <li>
+                <a href="#" style="color: #fff; text-decoration: none"
+                  >Order Status</a
+                >
+              </li>
+              <li>
+                <a href="#" style="color: #fff; text-decoration: none"
+                  >Shipping & Returns</a
+                >
+              </li>
+              <li>
+                <a href="#" style="color: #fff; text-decoration: none"
+                  >Payment</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Newsletter Sign Up Column -->
+          <div class="col-md-4">
+            <h4>Newsletter Sign Up</h4>
+            <form>
+              <div class="footer-search">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your email here..."
+                />
+                <button class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr style="height: 2px" />
+        <div style="display: flex; justify-content: space-between">
+          <h3>LOGO</h3>
+          <p>©2023 • All Rights Reserved</p>
+          <div style="display: flex">
+            <img width="30px" height="30px" src="./Images/twitter.png" />
+            <img
+              style="margin-left: 5px"
+              width="30px"
+              height="30px"
+              src="./Images/linkedin.png"
+            />
+            <img
+              style="margin-left: 5px"
+              width="30px"
+              height="30px"
+              src="./Images/facebook.png"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function showContent(target) {
+        if(target==='profile'){
+            document.getElementById('profile-navitem').classList.add('active');
+            document.getElementById('password-navitem').classList.remove('active');
+        }
+        else{
+          document.getElementById('profile-navitem').classList.remove('active');
+            document.getElementById('password-navitem').classList.add('active');
+        }
+          const contentSections = document.querySelectorAll('.profile-content');
+          contentSections.forEach(section => {
+              const toggleValue = section.getAttribute('data-toggle');
+              if (toggleValue === target) {
+                  section.style.display = 'block';
+              } else {
+                  section.style.display = 'none';
+              }
+          });
+      }
+  </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

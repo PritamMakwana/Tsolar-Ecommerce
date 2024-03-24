@@ -1,0 +1,140 @@
+
+
+/* HERO CODE STARTS HERE */
+
+.hero-backdrop {
+    background-image: url(./Images/Rectangle\ 6069.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero_container {
+    padding: 8% 4%;
+}
+
+.hero_container h1 {
+    font-family: Red Rose;
+    font-weight: 700;
+    font-size: 3.8rem;
+    width: 90vw;
+    text-align: left;
+    color: #ccffda;
+}
+
+.hero_container h5 {
+    font-family: Poppins;
+    font-weight: 400;
+    padding-top: 2.5%;
+    font-size: 1.4rem;
+    width: 80vw;
+    text-align: left;
+    color: #ffffff;
+}
+
+.hero_container button {
+    background-color: #ffffff00;
+    border-radius: 4px;
+    border: 1px solid #4deaff;
+    padding: 5px 10px;
+    margin-top: 3%;
+    color: #4deaff;
+}
+
+/* BELOW HERO */
+
+.below-hero-backdrop {
+    background-color: #312a23;
+    padding: 2.5%;
+}
+.custom-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: 280px;
+}
+.custom-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.custom-box h3 {
+    font-family: Red Rose;
+    font-weight: 700;
+}
+.custom-box p {
+    font-family: Red Rose;
+    font-weight: 400;
+}
+.yellow-box-card {
+    background-color: #ffd249;
+}
+.white-box-card {
+    margin-top: 2%;
+    background-color: #e5e5e5;
+}
+.green-box-card {
+    background-color: #d1ffde;
+    margin-top: 2%;
+}
+
+.below-box-content h1 {
+    color: white;
+    font-family: Red Rose;
+    font-weight: 700;
+    text-align: left;
+}
+
+/* Enquire Now */
+
+.enquire-now-backdrop {
+    padding: 2% 5%;
+}
+.enquire-now-content h1 {
+    font-family: Red Rose;
+    font-weight: 700;
+}
+.form-heading h3 {
+    font-family: Inter;
+    font-weight: 600;
+}
+.form-heading h5 {
+    font-family: Inter;
+    font-weight: 400;
+    color: #475467;
+}
+.fill-out h4 {
+    font-family: Red Rose;
+    font-weight: 400;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+.white-enquire-form {
+    box-shadow: 0px 4px 82px 0px #00000014;
+    padding: 2.5%;
+    margin-top: 2.5%;
+    border-radius: 12px;
+}
+.btn-custom-send {
+    width: 90%;
+    background-color: #4deaff;
+    color: #111111;
+    font-family: Jost;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+/* Our Movements */
+.our-moments_Container {
+    padding: 2.5% 8%;
+}
+.our-moments_Container h1 {
+    font-family: Red Rose;
+    font-weight: 700;
+}
+.mov {
+    width: 100%;
+}

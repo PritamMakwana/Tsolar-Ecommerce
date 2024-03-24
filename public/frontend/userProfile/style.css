@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+/* Navbar Start */
+.active-field{
+    color: #FFD233;
+}
+.navbar {
+    border-bottom: 1px solid black;
+    background-color: white;
+  }
+  .navbar .navbar-brand img {
+    max-width: 100px;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #000;
+  }
+  @media screen and (min-width: 1024px) {
+    .navbar {
+      letter-spacing: 0.1em;
+    }
+    .navbar .navbar-nav .nav-link {
+      padding: 0.5em 1em;
+    }
+    .search-and-icons {
+      width: 50%;
+    }
+    .search-and-icons form {
+      flex: 1;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .navbar .navbar-brand img {
+      max-width: 7em;
+    }
+    .navbar .navbar-collapse {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-end;
+    }
+    .search-and-icons {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  .btn-custom-navbar{
+    border-radius: 50px;
+    border: none;
+    margin-left: 15px;
+    background-color: #00000000;
+    padding: 0.5% 1%;
+    color: black;
+    font-family: Inter;
+font-weight: 500;
+text-align: center;
+  }
+  .btn-navbar-signup{
+    background-color: #4DEAFF;
+  }
+  .top-nav-bars a{
+    font-family: Inter;
+
+font-weight: 500;
+
+text-align: left;
+
+  }
+
+/* Navbar End */
+
+/* PROFILE CODE */
+
+/*social */
+
+.wrapper123 {
+  color: #333;
+  text-align: center;
+}
+
+.wrapper123 {
+  width: 70%;
+  margin: auto;
+  margin-top: -100px;
+}
+
+.wrapper123 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 5px solid #fff;
+  /*border: 10px solid #70b5e6ee;*/
+}
+
+.wrapper123 h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.wrapper123 p {
+  font-size: 18px;
+}
+.nav-profile-options{
+  margin-bottom: 3%;
+}
+.nav-profile-options .nav-tabs {
+  border: none;
+}
+
+.profile-content-container{
+  padding: 1% 8%;
+  
+}
+.password-content-container{
+  padding: 1% 8%;
+  
+}
+.card-body{
+  border: none;
+}
+.my-profile-card{
+  border-radius: 12px;
+  border: 1px solid #EAECF0;
+  
+}
+.navvvv{
+font-family: Inter;
+font-weight: 600;
+  text-decoration: none;
+  color: #9C9C9C;
+}
+.navvvv.active {
+  color: #667085;
+  border-bottom: 5px solid #4DEAFF;
+}
+
+.personal-info-banner h4{
+
+font-family: Inter;
+color: #101828;
+font-weight: 600;
+
+
+}
+.personal-info-banner p{
+  font-family: Inter;
+color: #475467;
+font-weight: 400;
+
+
+}
+.btn-custom-photo-upload{
+  font-family: Inter;
+background-color: #4DEAFF3D;
+font-weight: 600;
+border: 0.5px solid #50EBFF;
+  border-radius: 50px;
+  padding: 3% 5%;
+
+}
+
+
+/* LAST BUTTONS */
+.buttons-col{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.my-profile-btn{
+  width: 100%;
+  border-radius: 50px;
+  gap: 8px;
+  padding: 2% 4%;
+  border: none;
+  margin-bottom: 5%;
+  color: black;
+  font-family: Inter;
+
+font-weight: 600;
+
+
+}
+.update-prof-btn{
+  background-color: #4DEAFF;
+}
+
+.cancel-prof-btn{
+  border: 1px solid #000000;
+  background-color:white;
+}
+
+/* PASSWORD AREA */
+.form-row label {
+  width: 25%;
+  display: inline-block;
+}
+.password-confirm-custom{
+font-family: Inter;
+font-weight: 500;
+
+
+}
+.pass-constraints{
+  color: #475467 ;
+font-family: Inter;
+font-weight: 400;
+}
+.password-confirm-custom-field {
+  width: 50%;
+  border: 1px solid #D0D5DD;
+  border-radius: 8px;
+  padding: 0.5% 1%;
+  display: inline-block;
+}
+
+.cancel-custom-btn-password{
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  padding: 1% 2%;
+  font-family: Inter;
+font-weight: 600;
+}
+.update-custom-btn-password{
+  background-color: #4DEAFF;
+  border: 1px solid #4DEAFF;
+  border-radius: 8px;
+  padding: 1% 2%;
+  margin-left: 2%;
+font-family: Inter;
+font-weight: 600;
+
+
+}
+
+/* Footer Submit */
+
+.footer-search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    margin-top: 8%;  
+    }
+
+    .footer-search input{
+     height: 50px;
+     text-indent: 25px;
+     border-radius: 50px;
+    }
+
+
+    .footer-search input:focus{
+     box-shadow: none;
+     border: 2px solid #4DEAFF;
+    }
+
+    .footer-search .fa-search{
+
+     position: absolute;
+     top: 20px;
+     left: 16px;
+
+    }
+
+    .footer-search button{
+     position: absolute;
+     top: 5px;
+     right: 5px;
+     border:none;
+     height: 40px;
+     width: 110px;
+     background: #4DEAFF;
+     border-radius: 50px;
+    }
+
+    .continue-shopping-cart{
+        margin-top: 2%;
+        background-color: #4DEAFF;
+        border-radius: 50px;
+        color: black;
+        border: none;
+        padding:1% 2%;
+        font-family: Jost;
+font-weight: 500;
+
+
+
+    }
+
+

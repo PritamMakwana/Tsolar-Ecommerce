@@ -1,0 +1,240 @@
+/* * {
+    background: white;
+  } */
+  
+  /* style */
+  
+  .custom-width {
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+  }
+  
+  .border-ssue {
+    border: 1px solid grey;
+  }
+  
+  .border-div {
+    border-radius: 20px;
+  }
+  
+  .custom-text {
+    color: #475467;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  
+  .centered-text {
+    text-align: center;
+    vertical-align: middle !important;
+  }
+  
+  .custom-btn {
+    border: px solid grey;
+    border-radius: 20px;
+    background-color: #4deaff;
+  }
+  
+  .timeline-1 {
+    border-left: 3px dashed #14B081;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+  
+    margin: 0 auto;
+    position: relative;
+    padding-left: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 80%;
+  }
+  
+  @media (max-width: 767px) {
+    .timeline-1 {
+      max-width: 98%;
+      padding-left: 25px;
+    }
+  }
+  
+  .timeline-1 .event {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  
+  @media (max-width: 767px) {
+    .timeline-1 .event {
+      padding-top: 60px;
+    }
+  }
+  
+  .timeline-1 .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+  }
+  
+  .timeline-1 .event:before,
+  .timeline-1 .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  
+  .timeline-1 li h4,
+  .timeline-1 li p {
+    margin-bottom: 5px;
+  }
+  
+  tbody {
+    border-bottom: 1px solid grey;
+  }
+  
+  .timeline-1 .event[data-day]:before {
+    left: -207px;
+    content: attr(data-date) "\A"attr(data-day) "\A"attr(data-time);
+    white-space: pre;
+    text-align: right;
+    font-weight: 500;
+    font-size: 0.9em;
+    min-width: 120px;
+  }
+  
+  @media (max-width: 767px) {
+    .timeline-1 .event[data-day]:before {
+      left: 0px;
+      text-align: left;
+    }
+  }
+  
+  .timeline-1 .event:after {
+    -webkit-box-shadow: 0 0 0 3px #14B081;
+    box-shadow: 0 0 0 3px #14B081;
+    left: -55.8px;
+    /* background: rgb(203, 164, 164); */
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    top: 5px;
+  }
+  
+  @media (max-width: 767px) {
+    .timeline-1 .event:after {
+      left: -31.8px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .max-width-md {
+      max-width: 50%;
+      /* Set your desired max-width here */
+    }
+  }
+  
+  /* **** */
+  
+  .custom-text-color {
+    color: #344054;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 20px;
+  }
+  .custom-p-text {
+    color: #475467;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-top: 2px;
+  }
+  .item-container-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .custom-rounded-div {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .custom-rounded-image {
+    border-radius: 20px;
+    /* Use a positive value */
+    overflow: hidden;
+    object-fit: contain;
+    /* To ensure content within the border radius is clipped */
+  }
+  .custom-rounded-full {
+    border-radius: 30px;
+  }
+  .y {
+    background: #ffd233;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .font {
+    font-weight: 500;
+    font-size: 16px;
+    color: #4deaff;
+  }
+  .font-black {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+  }
+  .fontOrderid {
+    font-weight: 400;
+    color: #3c4242;
+  }
+  .b {
+    background-color: #4deaff;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .detailsbold {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7b7b7b;
+  }
+  .detailsnormal {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7b7b7b;
+  }
+  .detailspriceinfo {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3c4242;
+  }
+  .detailsprice {
+    font-size: 14px;
+    font-weight: 500;
+    color: #807d7e;
+  }
+  .customheading {
+    font-size: 26px;
+    font-weight: 500;
+    color: #344054;
+    opacity: 0.5;
+  }
+  .customheading1 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #344054;
+  }
+  @media (max-width: 768px) {
+    /* Adjust the maximum image size for smaller screens */
+    .custom-rounded-image {
+      max-width: 80%; /* Change as needed */
+    }
+    .item-container {
+      display: flex;
+    }
+  }
+  

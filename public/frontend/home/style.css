@@ -1,0 +1,402 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Red Rose", cursive;
+}
+
+.promo-bar {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.promo-button {
+    border-radius: 70px;
+    background-color: #4deaff;
+    padding: 1px 20px;
+    border: none;
+    color: #fff;
+
+    cursor: pointer;
+}
+.custom-navbar {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+}
+.custom-navbar .navbar-brand {
+    color: #000;
+}
+.custom-navbar .nav-item {
+    padding: 0 15px;
+}
+.custom-navbar .btn-login {
+    border-radius: 50px;
+    background-color: #4deaff;
+    color: #fff;
+}
+.custom-navbar .btn-signup {
+    border-radius: 50px;
+    background-color: transparent;
+    color: #000;
+}
+
+/* Navbar Ends Here */
+
+.home-page-hero-container {
+    background-image: url(./Images/image\ 32.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.home-page-hero-content {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.home-page-hero-container h1 {
+    font-weight: 700;
+    font-size: 4.4vw;
+    width: 55%;
+    color: #ffffff;
+    text-align: left;
+}
+@media (max-width: 500px) {
+    .home-page-hero-container h1 {
+        font-size: 12.4vw;
+        width: 65%;
+    }
+
+    .hero-search {
+        margin-top: 4%;
+        bottom: 350px;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 950px) {
+    .home-page-hero-container h1 {
+        font-size: 8.4vw;
+        width: 65%;
+    }
+
+    .home-page-hero-content {
+        padding-top: 8%;
+        padding-left: 5%;
+    }
+}
+
+.btn-custom-hero {
+    background-color: #4deaff;
+    font-family: Poppins;
+    font-weight: 500;
+    padding: 1% 2%;
+    border-radius: 999px;
+    color: black;
+    margin-top: 2%;
+}
+.hero-search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+    margin-top: 2%;
+    bottom: -55px;
+    width: 40%;
+}
+
+@media (max-width: 1024px) {
+    .hero-search {
+        bottom: 210px;
+    }
+}
+
+@media (max-width: 780px) {
+    .hero-search {
+        width: 60%;
+    }
+}
+@media (max-width: 530px) {
+    .hero-search {
+        margin-top: 4%;
+        bottom: 350px;
+        width: 90%;
+    }
+}
+
+.hero-search input {
+    height: 50px;
+    text-indent: 25px;
+    border-radius: 50px;
+}
+
+.hero-search input:focus {
+    box-shadow: none;
+    border: 2px solid #ffd233;
+}
+
+.hero-search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.hero-search button {
+    position: absolute;
+    font-family: Poppins;
+    font-weight: 600;
+    top: 5px;
+    right: 5px;
+    border: none;
+    height: 40px;
+    width: 110px;
+    color: white;
+    background: #ffd233;
+    border-radius: 50px;
+}
+
+/* Product Categories Start Here */
+.products-container-main {
+    padding: 2.5% 5%;
+    background-image: url(./Images/image\ 4.png);
+}
+.custom-products-card {
+    border-radius: 24px;
+    height: 50vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5%;
+}
+
+.prod1 {
+    background-image: url(./Images/prod1.png);
+}
+.prod2 {
+    background-image: url(./Images/prod2.png);
+}
+.prod3 {
+    background-image: url(./Images/prod3.png);
+}
+.prod4 {
+    background-image: url(./Images/prod4.png);
+}
+.prod5 {
+    background-image: url(./Images/prod5.png);
+}
+.prod6 {
+    background-image: url(./Images/prod6.png);
+}
+.btn-products-custom {
+    background-color: #4deaff;
+    border-radius: 40px;
+}
+.card-body-custom {
+    position: absolute;
+    bottom: 25px;
+
+    left: 50px;
+}
+.card-body-custom h5 {
+    color: white;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* Enquire Now Starts Here */
+.Enquire_Now-Container {
+    background: linear-gradient(to bottom, #ffe76d 50%, black 50%);
+    padding: 2.5% 5%;
+}
+.Enquire_Now_Content_Container {
+    background-color: #f8f8f8f7;
+    border-radius: 6px;
+    padding: 2.5%;
+}
+.enquire-now-content h2 {
+    font-weight: 700;
+    font-size: 2.8rem;
+    text-align: left;
+}
+.enquire-now-content p {
+    font-weight: 500;
+    font-family: Poppins;
+    text-align: justified;
+    padding-top: 2.5%;
+    width: 85%;
+}
+
+.btn-enquire-now {
+    background-color: #4deaff;
+    border-radius: 40px;
+    color: black;
+    padding: 1.5% 3%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+/* Our Products Start Here */
+
+.our-products_Container-Main {
+    padding: 2% 8%;
+    background-image: url(./Images/Rectangle\ 6026.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.our-product-text {
+    padding: 2%;
+}
+.discount {
+    border-radius: 20px;
+    background-color: #008192;
+    color: white;
+    margin-left: 2%;
+}
+.btn-our-pro-custom {
+    background-color: #4deaff;
+    border-radius: 4px;
+    padding: 1% 3%;
+}
+
+/* Blogs Start Here */
+
+.blogs_container-main {
+    background-color: #70eeff12;
+    padding: 2% 8%;
+}
+.blogs-text {
+    margin-top: 5%;
+}
+.blogs-purple {
+    color: #6941c6;
+    font-family: Inter;
+}
+.blogs-text h6 {
+    font-family: Inter;
+    font-weight: 600;
+}
+.blogs-semi-info {
+    font-family: Inter;
+    font-weight: 400;
+}
+
+/* Testimonials Start Here */
+.testimonials_Container-Main {
+    padding: 4% 8%;
+}
+.testimonials-backdrop {
+    background: linear-gradient(
+        99.33deg,
+        #ffe1a7 1.26%,
+        rgba(146, 189, 255, 0.22) 38.83%,
+        rgba(166, 136, 231, 0.04) 97.44%
+    );
+    border-radius: 24px;
+    padding: 2.5% 5%;
+}
+.testimonials-text h1 {
+    font-family: Inter;
+    font-weight: 500;
+}
+.testimonial-info-container {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    margin-top: 5%;
+}
+.testimonial-btn {
+    border-radius: 28px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #eaecf0;
+}
+.testimonial-name {
+    font-family: Inter;
+    font-weight: 600;
+}
+.testimonial-designation {
+    font-family: Inter;
+    font-weight: 400;
+    color: #475467;
+}
+@media (max-width: 768px) {
+    .testimonials-image {
+        margin-top: 5%;
+    }
+}
+
+/* Contact Us Starts Here */
+
+.contact-us_Container-Main {
+    background-color: #cecece1c;
+    padding: 2.5% 8%;
+}
+.contact-us-heading {
+    font-family: Inter;
+    font-weight: 600;
+}
+.contact-us-sub-heading {
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.btn-contact-us-custom {
+    background-color: #4deaff;
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+    color: black;
+}
+
+/* Footer Code */
+
+footer a {
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+    font-family: Lato;
+
+    font-weight: 400;
+    line-height: 15%;
+    text-align: left;
+}
+
+.footer-container {
+    padding: 2%;
+}
+
+/* Footer Submit */
+
+.footer-search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+    margin-top: 8%;
+}
+
+.footer-search input {
+    height: 50px;
+    text-indent: 25px;
+    border-radius: 50px;
+}
+
+.footer-search input:focus {
+    box-shadow: none;
+    border: 2px solid #4deaff;
+}
+
+.footer-search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.footer-search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    height: 40px;
+    width: 110px;
+    background: #4deaff;
+    border-radius: 50px;
+}

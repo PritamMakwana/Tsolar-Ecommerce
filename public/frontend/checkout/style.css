@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar Start
+.active-field {
+    color: #ffd233;
+}
+.navbar {
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+.navbar .navbar-brand img {
+    max-width: 100px;
+}
+.navbar .navbar-nav .nav-link {
+    color: #000;
+}
+@media screen and (min-width: 1024px) {
+    .navbar {
+        letter-spacing: 0.1em;
+    }
+    .navbar .navbar-nav .nav-link {
+        padding: 0.5em 1em;
+    }
+    .search-and-icons {
+        width: 50%;
+    }
+    .search-and-icons form {
+        flex: 1;
+    }
+}
+@media screen and (min-width: 768px) {
+    .navbar .navbar-brand img {
+        max-width: 7em;
+    }
+    .navbar .navbar-collapse {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .search-and-icons {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.btn-custom-navbar {
+    border-radius: 50px;
+    border: none;
+    margin-left: 15px;
+    background-color: #00000000;
+    padding: 0.5% 1%;
+    color: black;
+    font-family: Inter;
+    font-weight: 500;
+    text-align: center;
+}
+.btn-navbar-signup {
+    background-color: #4deaff;
+}
+.top-nav-bars a {
+    font-family: Inter;
+
+    font-weight: 500;
+
+    text-align: left;
+} */
+
+/* Navbar End */
+
+/* Checkout Code */
+.Checkout_Container-Main {
+    padding: 2% 4%;
+}
+.checkout-heading {
+    border-top: 1px solid #f87c093d;
+    border-bottom: 1px solid #f87c093d;
+    padding: 1.5%;
+}
+
+.dashed-hr {
+    display: flex;
+    align-items: center;
+}
+
+.dashed-hr hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 3px dashed #000;
+}
+
+.or-text {
+    padding: 0 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* GrandTotal Here */
+
+.Checkout_Container-Main-Total {
+    background-color: white;
+    padding: 2% 8%;
+}
+
+.grandtotal-window-main {
+    background-color: #e3deff1f;
+    border: 0.5px solid #0000001f;
+    border-radius: 24px;
+    padding: 3%;
+}
+.custom-table.table {
+    background-color: transparent !important;
+}
+.amount-checkout {
+    font-family: Jost;
+
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.num-amount-checkout {
+    font-family: Jost;
+    font-weight: 500;
+    text-align: center;
+    color: #3c4242;
+}
+.grand-total-num {
+    font-family: Jost;
+
+    font-weight: 800;
+    color: #ffd233;
+    text-align: center;
+}
+.proceed-checkout {
+    font-family: Jost;
+    font-weight: 600;
+    padding: 2.5% 4%;
+    margin-top: 5%;
+    border: none;
+    background-color: #4deaff;
+    color: black;
+    border-radius: 124px;
+    width: 100%;
+    text-align: center;
+}
+
+.discount-text {
+    font-family: Jost;
+
+    font-weight: 600;
+
+    text-align: left;
+}
+
+.discount-subtext {
+    font-family: Jost;
+
+    font-weight: 400;
+    color: #807d7e;
+    text-align: left;
+}
+
+.hero-search {
+    position: relative;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 80%;
+}
+
+.continue-section {
+    background-color: #f6f6f6;
+    padding: 2%;
+}
+.check-pro-details h5 {
+    font-family: Jost;
+    color: #3c4242;
+    font-weight: 600;
+}
+.check-pro-details p {
+    font-family: Jost;
+    color: #7b7b7b;
+    font-weight: 500;
+}
+.check-pro-details h4 {
+    font-family: Jost;
+    font-weight: 600;
+    color: #000000e5;
+}
+@media (max-width: 1062px) {
+    .hero-search {
+        width: 100%;
+    }
+    .hero-search button {
+        height: 40px;
+        width: 100px;
+    }
+}
+@media (max-width: 764px) {
+    .hero-search {
+        margin-top: 4%;
+        width: 100%;
+    }
+
+    .continue-shopping-cart {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 415px) {
+    .hero-search input {
+        text-indent: 0px;
+        font-size: 0.2rem;
+    }
+}
+
+.hero-search input {
+    height: 50px;
+    text-indent: 5px;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+.hero-search input:focus {
+    box-shadow: none;
+    border: 2px solid #ffd233;
+}
+
+.hero-search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 19px;
+}
+
+.hero-search button {
+    position: absolute;
+    font-family: Poppins;
+    font-weight: 600;
+    top: 5px;
+    right: 5px;
+    border: none;
+    height: 40px;
+    width: 140px;
+    color: white;
+    background: #ffd233;
+    border-radius: 50px;
+}
+
+/* Footer Submit */
+
+.footer-search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+    margin-top: 8%;
+}
+
+.footer-search input {
+    height: 50px;
+    text-indent: 25px;
+    border-radius: 50px;
+}
+
+.footer-search input:focus {
+    box-shadow: none;
+    border: 2px solid #4deaff;
+}
+
+.footer-search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.footer-search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    height: 40px;
+    width: 110px;
+    background: #4deaff;
+    border-radius: 50px;
+}
+
+.continue-shopping-cart {
+    margin-top: 2%;
+    background-color: #4deaff;
+    border-radius: 50px;
+    color: black;
+    border: none;
+    padding: 1% 2%;
+    font-family: Jost;
+    font-weight: 500;
+}
+
+/* MODAL */
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style the success message */
+
+.modal-custom-button {
+    background-color: #4deaff;
+    border-radius: 50px;
+    width: 100%;
+    border: none;
+    padding: 2% 4%;
+    color: black;
+    margin-top: 5%;
+    font-family: Jost;
+    font-weight: 500;
+}

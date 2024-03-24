@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+/* Navbar Start */
+ /* PROMO CODE */
+
+ .promo-bar {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.promo-button {
+  border-radius: 70px;
+  background-color: #4DEAFF;
+  padding: 1px 20px;
+  border: none;
+  color: #fff;
+  
+  cursor: pointer;
+}
+/* NAVBAR */
+      .cart-number {
+          
+          background-color: #FFD233;
+          color: white;
+          border-radius: 50%;
+          padding: 5px 10px;
+          font-size: 12px;
+      }
+      
+      .nav-link-cstm{
+          font-family: Inter;
+font-weight: 500;
+
+
+      }
+
+      .navbar-custom-buttons-login{
+          background-color: #F6FEFF;
+          border: none;
+          font-family: Inter;
+          font-weight: 500;
+          border-radius: 50px;
+      }
+      .navbar-custom-buttons-signup{
+          border-radius: 50px;
+          border: none;
+          font-family: Inter;
+          font-weight: 500;
+          background-color: #4DEAFF;
+      }
+
+/* Navbar End */
+
+/* RETURN CODE STARTS HERE */
+.return-products-container{
+  padding: 2% 15%;
+  margin-bottom: 1%;
+}
+
+.return-pro-description{
+  font-family: Jost;
+font-weight: 600;
+color: #7B7B7B;
+
+}
+.return-pro-main-description{
+  font-weight: 500;
+}
+
+.return-custom-btn{
+  background-color: #4DEAFF;
+  border: none;
+  border-radius: 50px;
+  padding: 1.5% 10%;
+  font-family: Inter;
+  font-weight: 600;
+  margin-top: 2.5%;
+}
+
+
+
+
+
+/* Footer Submit */
+
+.footer-search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    margin-top: 8%;  
+    }
+
+    .footer-search input{
+     height: 50px;
+     text-indent: 25px;
+     border-radius: 50px;
+    }
+
+
+    .footer-search input:focus{
+     box-shadow: none;
+     border: 2px solid #4DEAFF;
+    }
+
+    .footer-search .fa-search{
+
+     position: absolute;
+     top: 20px;
+     left: 16px;
+
+    }
+
+    .footer-search button{
+     position: absolute;
+     top: 5px;
+     right: 5px;
+     border:none;
+     height: 40px;
+     width: 110px;
+     background: #4DEAFF;
+     border-radius: 50px;
+    }
